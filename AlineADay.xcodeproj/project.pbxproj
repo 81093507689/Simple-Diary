@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57173200E3CBE98D555D3B51 /* Pods_AlineADay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4414E7E9752900B2B43A5E8 /* Pods_AlineADay.framework */; };
+		8B23FC60224E36760090B659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC5F224E36760090B659 /* AppDelegate.swift */; };
+		8B23FC62224E36760090B659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC61224E36760090B659 /* ViewController.swift */; };
+		8B23FC65224E36760090B659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B23FC63224E36760090B659 /* Main.storyboard */; };
+		8B23FC67224E36770090B659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B23FC66224E36770090B659 /* Assets.xcassets */; };
+		8B23FC6A224E36770090B659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B23FC68224E36770090B659 /* LaunchScreen.storyboard */; };
+		8B23FC75224E37D00090B659 /* MonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC74224E37D00090B659 /* MonthCell.swift */; };
+		8B23FC7A224E3AC90090B659 /* FMDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC77224E3AC90090B659 /* FMDBModel.swift */; };
+		8B23FC7B224E3AC90090B659 /* FMDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC78224E3AC90090B659 /* FMDBManager.swift */; };
+		8B23FC7C224E3AC90090B659 /* FMDBQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC79224E3AC90090B659 /* FMDBQueueManager.swift */; };
+		8B23FC7E224E3EB70090B659 /* MonthDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC7D224E3EB70090B659 /* MonthDetailCell.swift */; };
+		8B23FC81224E3FDB0090B659 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC80224E3FDB0090B659 /* ShadowView.swift */; };
+		8B23FC83224E429D0090B659 /* addNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23FC82224E429D0090B659 /* addNote.swift */; };
+		8B2965F8224F49E000E390DA /* SelectDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2965F7224F49E000E390DA /* SelectDateViewController.swift */; };
+		8B2965FA224F63E100E390DA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2965F9224F63E100E390DA /* GradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32FE1766BD038E7F18A5F3DD /* Pods-AlineADay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlineADay.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlineADay/Pods-AlineADay.release.xcconfig"; sourceTree = "<group>"; };
+		8B23FC5C224E36760090B659 /* AlineADay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlineADay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B23FC5F224E36760090B659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B23FC61224E36760090B659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B23FC64224E36760090B659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B23FC66224E36770090B659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B23FC69224E36770090B659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B23FC6B224E36770090B659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B23FC74224E37D00090B659 /* MonthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCell.swift; sourceTree = "<group>"; };
+		8B23FC77224E3AC90090B659 /* FMDBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBModel.swift; sourceTree = "<group>"; };
+		8B23FC78224E3AC90090B659 /* FMDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBManager.swift; sourceTree = "<group>"; };
+		8B23FC79224E3AC90090B659 /* FMDBQueueManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBQueueManager.swift; sourceTree = "<group>"; };
+		8B23FC7D224E3EB70090B659 /* MonthDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDetailCell.swift; sourceTree = "<group>"; };
+		8B23FC80224E3FDB0090B659 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		8B23FC82224E429D0090B659 /* addNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNote.swift; sourceTree = "<group>"; };
+		8B2965F7224F49E000E390DA /* SelectDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateViewController.swift; sourceTree = "<group>"; };
+		8B2965F9224F63E100E390DA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8C51B2CD1794C75AE6F34B79 /* Pods-AlineADay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlineADay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlineADay/Pods-AlineADay.debug.xcconfig"; sourceTree = "<group>"; };
+		D4414E7E9752900B2B43A5E8 /* Pods_AlineADay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlineADay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B23FC59224E36760090B659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57173200E3CBE98D555D3B51 /* Pods_AlineADay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473C2E4EF3180B9202A18D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C51B2CD1794C75AE6F34B79 /* Pods-AlineADay.debug.xcconfig */,
+				32FE1766BD038E7F18A5F3DD /* Pods-AlineADay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8407436E9A08EE8D13CA67AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4414E7E9752900B2B43A5E8 /* Pods_AlineADay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B23FC53224E36760090B659 = {
+			isa = PBXGroup;
+			children = (
+				8B23FC5E224E36760090B659 /* AlineADay */,
+				8B23FC5D224E36760090B659 /* Products */,
+				473C2E4EF3180B9202A18D7C /* Pods */,
+				8407436E9A08EE8D13CA67AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B23FC5D224E36760090B659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B23FC5C224E36760090B659 /* AlineADay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B23FC5E224E36760090B659 /* AlineADay */ = {
+			isa = PBXGroup;
+			children = (
+				8B23FC71224E37BA0090B659 /* Classes */,
+				8B23FC5F224E36760090B659 /* AppDelegate.swift */,
+				8B23FC61224E36760090B659 /* ViewController.swift */,
+				8B23FC63224E36760090B659 /* Main.storyboard */,
+				8B23FC66224E36770090B659 /* Assets.xcassets */,
+				8B23FC68224E36770090B659 /* LaunchScreen.storyboard */,
+				8B23FC6B224E36770090B659 /* Info.plist */,
+			);
+			path = AlineADay;
+			sourceTree = "<group>";
+		};
+		8B23FC71224E37BA0090B659 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B23FC7F224E3FDB0090B659 /* Subclass */,
+				8B23FC76224E3AC90090B659 /* FMDBTool */,
+				8B23FC72224E37BA0090B659 /* Cell */,
+				8B23FC73224E37BA0090B659 /* AllView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B23FC72224E37BA0090B659 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8B23FC74224E37D00090B659 /* MonthCell.swift */,
+				8B23FC7D224E3EB70090B659 /* MonthDetailCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8B23FC73224E37BA0090B659 /* AllView */ = {
+			isa = PBXGroup;
+			children = (
+				8B23FC82224E429D0090B659 /* addNote.swift */,
+				8B2965F7224F49E000E390DA /* SelectDateViewController.swift */,
+			);
+			path = AllView;
+			sourceTree = "<group>";
+		};
+		8B23FC76224E3AC90090B659 /* FMDBTool */ = {
+			isa = PBXGroup;
+			children = (
+				8B23FC77224E3AC90090B659 /* FMDBModel.swift */,
+				8B23FC78224E3AC90090B659 /* FMDBManager.swift */,
+				8B23FC79224E3AC90090B659 /* FMDBQueueManager.swift */,
+			);
+			path = FMDBTool;
+			sourceTree = "<group>";
+		};
+		8B23FC7F224E3FDB0090B659 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				8B23FC80224E3FDB0090B659 /* ShadowView.swift */,
+				8B2965F9224F63E100E390DA /* GradientView.swift */,
+			);
+			path = Subclass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B23FC5B224E36760090B659 /* AlineADay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B23FC6E224E36770090B659 /* Build configuration list for PBXNativeTarget "AlineADay" */;
+			buildPhases = (
+				6603F89127B312979DDAEFF7 /* [CP] Check Pods Manifest.lock */,
+				8B23FC58224E36760090B659 /* Sources */,
+				8B23FC59224E36760090B659 /* Frameworks */,
+				8B23FC5A224E36760090B659 /* Resources */,
+				4E95D0A1986A58AB69AC80F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlineADay;
+			productName = AlineADay;
+			productReference = 8B23FC5C224E36760090B659 /* AlineADay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B23FC54224E36760090B659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AlineADay;
+				TargetAttributes = {
+					8B23FC5B224E36760090B659 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B23FC57224E36760090B659 /* Build configuration list for PBXProject "AlineADay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B23FC53224E36760090B659;
+			productRefGroup = 8B23FC5D224E36760090B659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B23FC5B224E36760090B659 /* AlineADay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B23FC5A224E36760090B659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B23FC6A224E36770090B659 /* LaunchScreen.storyboard in Resources */,
+				8B23FC67224E36770090B659 /* Assets.xcassets in Resources */,
+				8B23FC65224E36760090B659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E95D0A1986A58AB69AC80F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlineADay/Pods-AlineADay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQDropDownTextField/IQDropDownTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQDropDownTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlineADay/Pods-AlineADay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6603F89127B312979DDAEFF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlineADay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B23FC58224E36760090B659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2965F8224F49E000E390DA /* SelectDateViewController.swift in Sources */,
+				8B23FC83224E429D0090B659 /* addNote.swift in Sources */,
+				8B2965FA224F63E100E390DA /* GradientView.swift in Sources */,
+				8B23FC7C224E3AC90090B659 /* FMDBQueueManager.swift in Sources */,
+				8B23FC7A224E3AC90090B659 /* FMDBModel.swift in Sources */,
+				8B23FC7E224E3EB70090B659 /* MonthDetailCell.swift in Sources */,
+				8B23FC7B224E3AC90090B659 /* FMDBManager.swift in Sources */,
+				8B23FC81224E3FDB0090B659 /* ShadowView.swift in Sources */,
+				8B23FC75224E37D00090B659 /* MonthCell.swift in Sources */,
+				8B23FC62224E36760090B659 /* ViewController.swift in Sources */,
+				8B23FC60224E36760090B659 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B23FC63224E36760090B659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B23FC64224E36760090B659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B23FC68224E36770090B659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B23FC69224E36770090B659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B23FC6C224E36770090B659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B23FC6D224E36770090B659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B23FC6F224E36770090B659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C51B2CD1794C75AE6F34B79 /* Pods-AlineADay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlineADay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlineADay.AlineADay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B23FC70224E36770090B659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FE1766BD038E7F18A5F3DD /* Pods-AlineADay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlineADay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlineADay.AlineADay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B23FC57224E36760090B659 /* Build configuration list for PBXProject "AlineADay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B23FC6C224E36770090B659 /* Debug */,
+				8B23FC6D224E36770090B659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B23FC6E224E36770090B659 /* Build configuration list for PBXNativeTarget "AlineADay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B23FC6F224E36770090B659 /* Debug */,
+				8B23FC70224E36770090B659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B23FC54224E36760090B659 /* Project object */;
+}
